@@ -29,11 +29,139 @@ body {
 }
 
 #pattern-top {
+  width: 978px;
+  height: 976px;
   position: absolute;
   transform: rotate(45deg);
   opacity: 0.5;
   background-blend-mode: normal;
   overflow: hidden;
-  top: -500.84px;
-  left: -486.84px;
+  top: -523px;
+  left: -280px;
+}
+
+#pattern-bottom {
+  width: 978px;
+  height: 976px;
+  position: absolute;
+  transform: rotate(45deg);
+  opacity: 0.5;
+  background-blend-mode: normal;
+  overflow: hidden;
+  top: 335px;
+  left: 740px;
+}
+
+#card {
+  width: 350px;
+  height: 374px;
+  background-color: #fff;
+  box-shadow: rgba(8, 70, 94, 0.5);
+  border-radius: 15px;
+  position: relative;
+}
+
+#card-img-top img {
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+#card-img-victor {
+  position: absolute;
+  top: 92px;
+  left: 127px;
+}
+
+#card-img-victor img {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+}
+
+#card-heading {
+  width: 135px;
+  height: 23px;
+  position: absolute;
+  top: 212px;
+  left: 108px;
+  text-align: center;
+}
+
+#card-heading p {
+  font-family: var(--font-family-kumbh-sans);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  color: var(--primary-very-dark-desaturated-blue);
+}
+
+#card-heading p span {
+  color: var(--primary-dark-grayish-blue);
+}
+
+#card-town {
+  width: 50px;
+  height: 14px;
+  position: absolute;
+  top: 243px;
+  left: 150px;
+}
+
+#card-town p {
+  font-family: var(--font-family-kumbh-sans);
+  font-size: 14px;
+  line-height: 14px;
+  color: var(--neutral-dark-gray);
+}
+
+#card-divider {
+  width: 350px;
+  height: 1px;
+  background-color: #e8e9ec;
+  position: absolute;
+  top: 285px;
+}
+
+#card-social-data {
+  width: 249px;
+  height: 40px;
+  position: absolute;
+  top: 310px;
+  left: 47px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card-social {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-social p {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family-kumbh-sans);
+}
+
+.card-social p:nth-child(1) {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  color: var(--primary-very-dark-desaturated-blue);
+  margin-bottom: 9px;
+}
+
+.card-social p:nth-child(2) {
+  font-size: 10px;
+  line-height: 10px;
+  letter-spacing: 1.5px;
+  color: var(--primary-dark-grayish-blue);
+}
+
+.attribution {
+  text-align: center;
 }
