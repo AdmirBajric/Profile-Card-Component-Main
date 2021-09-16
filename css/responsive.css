@@ -2,4 +2,82 @@
   body {
     width: 100%;
   }
+
+  #main {
+    width: 375px;
+    height: 667px;
+  }
+
+  #pattern-top {
+    width: 622px;
+    height: 621px;
+    opacity: 0.9;
+    position: absolute;
+    top: -350px;
+    left: -410px;
+  }
+
+  #pattern-top img {
+    width: 622px;
+    height: 621px;
+  }
+
+  #pattern-bottom {
+    width: 622px;
+    height: 621px;
+    opacity: 0.9;
+    position: absolute;
+    top: 390px;
+    left: 140px;
+  }
+
+  #pattern-bottom img {
+    width: 622px;
+    height: 621px;
+  }
+
+  #card {
+    width: 326px;
+    height: 374px;
+  }
+
+  #card-img-top {
+    width: 326px;
+    height: 140px;
+  }
+
+  #card-img-top img {
+    width: 326px;
+    height: 140px;
+  }
+
+  #card-img-victor {
+    position: absolute;
+    top: 92px;
+    left: 115px;
+  }
+
+  #card-heading {
+    width: 135px;
+    height: 49px;
+    position: absolute;
+    top: 212px;
+    left: 96px;
+  }
+
+  #card-town {
+    width: 50px;
+    height: 14px;
+    position: absolute;
+    top: 243px;
+    left: 138px;
+  }
+
+  #card-social-data {
+    width: 233px;
+    height: 40px;
+    position: absolute;
+    top: 310px;
+    left: 41px;
+  }
 }
